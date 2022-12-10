@@ -1,0 +1,187 @@
+.greeting {
+    font-size: 36px;
+    text-align:center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 54px;
+}
+
+.main_question {
+    font-size: 96px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 144px;
+    margin-bottom: 144px;
+}
+
+.title {
+    font-size: 56px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 144px;
+    margin-bottom: 144px;
+}
+
+.main_contents {
+    display: block;
+    margin: 32px;
+}
+
+.button {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 640px;
+    height: 138px;
+    font-size: 32px;
+    border-radius:32px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 48px;
+    color: #000000;
+    background-color: lightgray;
+    border: none;
+}
+
+.button_submit {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 480px;
+    height: 96px;
+    font-size: 32px;
+    border-radius:32px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    color: #000000;
+    background-color: lightgray;
+    border: none;
+}
+
+#modal_success {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#modal_failure {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: #f4f4f4;
+    margin: 40% auto;
+    width: 80%;
+    font-size: 24px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+    animation-name: modalopen;
+    animation-duration: 1s;
+    border-radius:32px;
+}
+
+@keyframes modalopen {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+.modal-header h1 {
+margin: 1rem 0;
+border-top-left-radius: 32px;
+border-top-right-radius: 32px;
+}
+
+.modal-header {
+background: lightblue;
+padding: 3px 30px;
+display: flex;
+justify-content: space-between;
+border-top-left-radius: 32px;
+border-top-right-radius: 32px;
+}
+
+.modalClose {
+font-size: 4rem;
+}
+
+.modalClose:hover {
+cursor: pointer;
+}
+
+.modal-body {
+padding: 10px 20px;
+color: black;
+}
+
+.modal-footer {
+padding: 10px 20px;
+color: black;
+}
+
+table{
+border-collapse: collapse;
+border-spacing: 0;
+table-layout: auto;
+width: 780px;
+margin-left: auto;
+margin-right: auto;
+}
+
+table th{
+text-align: center;
+font-size: 28px;
+padding: 14px 0;
+border-right:solid 1px #ddd;
+border-left:solid 1px #ddd;
+width: 260px;
+}
+
+table th:nth-child(1){
+background-color:#dddddd;
+}
+
+table th:nth-child(2){
+background-color:#dddddd;
+}
+
+table th:nth-child(3){
+background-color:#f5b932;
+color: white;
+}
+
+table td{
+text-align: center;
+padding: 14px 0;
+border-right:solid 1px #ddd;
+border-left:solid 1px #ddd;
+width: 260px;
+}
+
+table td a{
+background-color: #25b327;
+color: white;
+padding:10px 40px;
+border-radius: 30px;
+font-weight: bold;
+}
