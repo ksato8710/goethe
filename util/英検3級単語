@@ -1,999 +1,997 @@
-    // 'about' => '～について/約', ',
-',
-',
-'famous' => '有名な',
-'weekend' => '週末に',
-'soon' => 'まもなく，すぐに',
-'still' => 'まだ',
-'popular' => '人気の',
-'practice' => '練習する',
-'during' => '～の間',
-'enjoy' => '楽しむ',
-'favorite' => 'お気に入りの',
-'sell' => 'を売る',
-'bring' => '持って来る',
-'expensive' => '高価な，費用のかかる',
-'join' => '参加する',
-'so' => 'とても',
-'leave' => '去る、残す、置いて行く',
-'enough' => '十分な',
-'happen' => '起こる',
-'different' => '違った',
-'invite' => '招待する',
-'how about' => 'はどうですか？',
-'plan' => '計画する',
-'たずねる',
-'until' => 'まで，までは',
-'almost' => 'ほとんど',
-'sick' => '病気の',
-'excited' => '興奮した',
-'science' => '科学',
-'library' => '図書館',
-'visit' => '訪問する',
-'cheap' => '安い',
-'then' => 'そのとき',
-'show' => '見せる',
-'instead' => 'そのかわりに',
-'what about' => '～はどうですか',
-'garden' => '庭',
-'look for' => 'を探す',
-'meet' => '会う',
-'because of' => '～のために',
-'by' => 'のそばに、によって',
-'stay' => '滞在',
-'hope' => '望む',
-'delicious' => 'おいしい',
-'together' => '一緒に',
-'decide' => '決心する',
-'later' => '後に',
-'festival' => '祭り',
-'vacation' => '休暇',
-'自分の',
-'noon' => '正午',
-'important' => '重要な',
-'remember' => '思い出す',
-'nervous' => 'あがっている',
-'look' => '見る',
-'weather' => '天気',
-'in front of' => 'の前に',
-'have to' => '～しなければならない',
-'grow' => '育てる',
-'carry' => '運ぶ',
-'heavy' => '重い',
-'need to' => '～する必要がある',
-'a lot of' => 'たくさんの',
-'sure' => '確信して',
-'arrive' => '到着する',
-'over there' => 'あそこに',
-'borrow' => '借りる',
-'place' => '場所',
-'break' => '壊れる，破る',
-'June' => '6月',
-'usually' => '普通は',
-'勝つ',
-'healthy' => '健康な',
-'sign' => '標識',
-'one day' => 'ある日',
-'maybe' => 'たぶん',
-'how often' => 'どのぐらいの頻度',
-'hurt' => 'を傷つける',
-'dictionary' => '辞書',
-'置く',
-'try on' => '試着する',
-'difficult' => '難しい',
-'be interested in' => 'に興味がある',
-'when' => '～するとき',
-'beside' => '横に',
-'strong' => '強い',
-'believe' => '信じる',
-'悲しい',
-'should' => '～すべきである',
-'clock' => '置き時計',
-'million' => '100万',
-'bright' => '明るい',
-'again' => 'もう一度、再び、また',
-'hear' => '聞く',
-'look forward to' => '～を楽しみにする',
-'cook' => '料理する',
-'drive' => '運転する',
-'face' => '顔',
-'得る',
-'find' => '見つける',
-'lake' => '湖',
-'really' => '本当に',
-'sometimes' => '時々',
-'exciting' => '興奮させる',
-'write' => '書く、手紙を書く',
-'make' => '作る、～を～にする',
-'tall' => '高い',
-'guess' => '推測する',
-'between A and B' => 'AとBの間',
-'July' => '7月',
-'information' => '情報',
-'pay' => '支払う',
-'season' => '季節',
-'already' => 'すでに，もう',
-'sold out' => '売り切れ',
-'take care of' => 'の面倒を見る',
-'March' => '3月',
-'wear' => '着る',
-'university' => '大学',
-'math' => '数学',
-'people' => '人々',
-'lots of' => 'たくさんの',
-'care' => '注意する，世話する',
-'invent' => 'を発明する',
-'large' => '大きい、広い',
-'get married' => '結婚する',
-'city hall' => '市庁舎',
-'bank' => '銀行',
-'prize' => '賞',
-'save' => '節約する',
-'on weekends' => '週末に',
-'clothes' => '服',
-'museum' => '博物館',
-'be born' => '生まれる',
-'choose' => '選ぶ',
-'cousin' => 'いとこ',
-'everywhere' => 'どこでも',
-'plant' => '植物',
-'try' => '試す',
-'if' => 'もし～なら',
-'another' => 'もう一つの',
-'take part in' => 'に参加する',
-'meaning' => '意味',
-'hit' => '打つ',
-'angry' => '怒った，腹を立てた',
-'map' => '地図',
-'be proud of' => 'を誇りに思う',
-'dirty' => '汚い',
-'each other' => 'お互いに',
-'promise' => '約束',
-'problem' => '問題',
-'who' => 'だれ',
-'what' => '何',
-'how' => 'どのぐらい',
-'customer' => '顧客',
-'once' => 'かつて',
-'twice' => '2回',
-'salt' => '塩',
-'hurry up' => '急ぐ',
-'notice' => '気づく',
-'collect' => '集める',
-'accident' => '事故',
-'more than' => 'より多い',
-'cost' => '費用',
-'star' => '星、スター',
-'keep' => 'を保つ',
-'late' => '遅い',
-'cold' => '冷たい',
-'food' => '食べ物',
-'order' => '注文する',
-'clean' => 'きれいな',
-'right away' => '直ちに，すぐに',
-'trip' => '旅行',
-'far from' => '～から遠い',
-'zoo' => '動物園',
-'wash' => '洗う',
-'pick up' => '拾う',
-'fun' => '楽しみ',
-'grandfather' => '祖父',
-'travel' => '旅行',
-'other' => 'ほかの',
-'attention' => '注意',
-'husband' => '夫',
-'international' => '国際的な',
-'interesting' => '面白い',
-'often' => 'しばしば，よく',
-'boring' => 'つまらない',
-'glad' => 'うれしい',
-'below' => '下に，下記の',
-'turn' => '曲がる、回る、変化する',
-'wide' => '幅の広い',
-'loud' => '騒がしい',
-'amazing' => '驚くべき',
-'price' => '値段',
-'each' => '各々の',
-'talk about' => 'について話す',
-'right' => '右に',
-'anyway' => 'ともかく',
-'worry' => '心配させる',
-'hard' => '一生懸命に',
-'award' => '賞',
-'ocean' => '大洋，海',
-'draw' => '描く',
-'drink' => '飲む',
-'bakery' => 'パン屋',
-'busy' => '忙しい',
-'tonight' => '今夜は',
-'cloudy' => '曇った',
-'wrong' => '間違った',
-'think' => '考える',
-'subject' => '科目、題目',
-'become' => '～になる',
-'enter' => '入る',
-'imagine' => 'を想像する',
-'without' => '～なしに',
-'through' => 'を通り抜けて',
-'since' => '～以来',
-'horizon' => '地平線，水平線',
-'turn on' => 'を点ける',
-'turn off' => 'を消す',
-'buy' => '買う',
-'celebrate' => '祝う',
-'be afraid of' => 'を恐れる',
-'rule' => '支配，統治',
-'get off' => '降りる',
-'wallet' => 'さいふ',
-'run away' => '逃げ去る',
-'ride' => '乗る',
-'in the future' => '将来に',
-'scientist' => '科学者',
-'rainy' => '雨降りの',
-'rise' => '昇る',
-'steal' => '盗む',
-'mirror' => '鏡',
-'stay with' => '～と一緒に過ごす',
-'while' => '～する間',
-'work for' => 'のために働く',
-'feel' => '感じる',
-'quick' => '速い',
-'ever' => '今まで',
-'be good at' => '～が上手である',
-'local' => '地元の',
-'lend' => '貸す',
-'environment' => '環境',
-'hole' => '穴',
-'explain' => '説明する',
-'finger' => '指',
-'head' => '頭',
-'hand' => '手',
-'shape' => '形',
-'think of' => '思い付く',
-'country' => '国',
-'company' => '会社',
-'taste' => '味',
-'spend' => '費やす',
-'in fact' => '実際には',
-'visitor' => '観光客',
-'boil' => 'ゆでる，煮る',
-'history' => '歴史',
-'grew' => '育った',
-'joined' => '参加した',
-'letter' => '手紙',
-'why' => 'なぜ',
-'Saturday' => '土曜日',
-'Friday' => '金曜日',
-'advice' => '忠告',
-'Wednesday' => '水曜日',
-'few' => 'いくつかの',
-'piece' => '欠片，一部',
-'went' => '行った',
-'understand' => '理解する',
-'reason' => '理由',
-'pick' => '選ぶ',
-'peaceful' => '平和な',
-'handle' => 'を処理する',
-'round' => 'まわりに',
-'thirsty' => 'のどの乾いた',
-'same' => '同じ',
-'be different from' => 'とは異なる',
-'more' => 'もっと',
-'purpose' => '目的',
-'let us' => '～しよう',
-'just a moment' => '少しの間',
-'vegetable' => '野菜',
-'May' => '５月',
-'date' => '日付',
-'February' => '2月',
-'such' => 'そのような',
-'talk to' => 'に話しかける',
-'wife' => '妻',
-'move' => '動く，引っ越す',
-'daughter' => '娘',
-'always' => 'いつも',
-'be kind to' => '～に親切にする',
-'everyone' => 'みんな',
-'agree with' => 'に賛成である',
-'fix' => '固定する',
-'side' => '側，面',
-'hungry' => '空腹の',
-'here' => 'ここに',
-'last' => 'ひとつ前の，最後の',
-'headache' => '頭痛',
-'mountain' => '山',
-'anywhere' => 'どこでも',
-'brush' => 'をみがく',
-'breakfast' => '朝食',
-'hat' => '帽子',
-'dinner' => '夕食',
-'watch' => '見る',
-'around' => 'のまわりに',
-'salad' => 'サラダ',
-'school festival' => '文化祭',
-'nature' => '自然',
-'design' => 'を設計する',
-'share' => '分かち合う',
-'long' => '長い',
-'receive' => 'を受け取る',
-'injure' => 'を傷つける',
-'theater' => '劇場',
-'horror' => '恐怖',
-'attend' => 'に通う，に出席する',
-'die' => '死ぬ',
-'every year' => '毎年',
-'fast' => '速い',
-'umbrella' => '傘',
-'pleasure' => '楽しみ',
-'picture' => '絵、写真',
-'see' => '見る',
-'art' => '芸術',
-'too' => '～もまた',
-'grandmother' => '祖母',
-'doctor' => '医者',
-'teach' => '教える',
-'station' => '駅',
-'after' => '～の後で',
-'airplane' => '飛行機',
-'memory' => '記憶',
-'wish' => '望む',
-'answer' => '答える',
-'example' => '例',
-'protect' => 'を守る，保護する',
-'century' => '世紀',
-'moment' => '瞬間',
-'as usual' => 'いつものように',
-'difference' => 'ちがい',
-'finish' => '終える',
-'actually' => '実は，本当は',
-'in those days' => '当時は',
-'noisy' => '騒がしい',
-'hospital' => '病院',
-'recently' => '最近',
-'fact' => '事実，現実',
-'sight' => '見ること',
-'judge' => '審判員',
-'complain' => '不満を言う',
-'reach' => '届く',
-'lose' => '失う',
-'a few' => 'いくらかの',
-'toy' => '玩具',
-'November' => '11月',
-'behind' => '背後に',
-'support' => 'を支援する，応援する',
-'outside' => 'の外側に',
-'matter' => '問題，困ったこと',
-'forget' => '忘れる',
-'wait for' => 'を待つ',
-'tooth' => '歯',
-'rest' => '休息する',
-'airline' => '航空会社',
-'finally' => 'ついに，やっと',
-'river' => '川',
-'pond' => '池',
-'hill' => '丘',
-'cry' => '泣く',
-'at first' => '最初は',
-'grade' => '評価',
-'warn' => '警告する',
-'comfortable' => '心地の良い',
-'flavor' => '風味',
-'meat' => '肉',
-'kind' => '種類',
-'square' => '正方形の',
-'a kind of' => '一種の',
-'bread' => 'パン',
-'quickly' => '素早く',
-'burn' => 'を燃やす',
-'at that time' => 'あの時は',
-'word' => '言葉',
-'continue' => '続く',
-'manager' => '部長',
-'not at all' => '全くない',
-'abroad' => '外国へ',
-'farmer' => '農家',
-'market' => '市場',
-'health' => '健康',
-'fresh' => '新鮮な',
-'build' => '建てる',
-'future' => '未来',
-'culture' => '文化',
-'never' => '１度もない',
-'silent' => '静かな',
-'worry about' => 'について心配する',
-'several' => '幾つかの',
-'however' => 'しかし',
-'foreign' => '外国の',
-'interest' => '興味',
-'at last' => 'ついに',
-'speak' => '話す',
-'somewhere' => 'どこかに',
-'for free' => '無料で',
-'less than' => '未満',
-'correct' => '正解',
-'clever' => '利口な',
-'very' => '非常に',
-'probably' => '多分',
-'held' => '握った',
-'tradition' => '伝統',
-'know' => '知っている',
-'color' => '色',
-'afternoon' => '午後',
-'sun' => '太陽',
-'summer' => '夏',
-'soil' => '土',
-'thousand' => '千',
-'horse' => '馬',
-'lost' => '失った',
-'April' => '4月',
-'won' => '勝った',
-'tell' => '伝える',
-'useful' => '役に立つ',
-'cloud' => '雲',
-'exchange' => '交換',
-'shake' => '震える',
-'raise' => '手などを挙げる',
-'agree' => '賛成する',
-'smell' => 'においがする',
-'where' => 'どこに',
-'poor' => '貧乏な',
-'gave' => '与えた',
-'take' => '取る',
-'walk' => '散歩',
-'Monday' => '月曜日',
-'enjoyed' => '楽しんだ',
-'studied' => '勉強した',
-'sold' => '売った',
-'go abroad' => '外国に行く',
-'spoke' => '話した',
-'made' => '作った',
-'graduate' => '卒業する',
-'within' => '以内で',
-'yesterday' => '昨日',
-'because' => 'なぜなら',
-'dangerous' => '危険な',
-'island' => '島',
-'temple' => 'お寺',
-'beginning' => '最初',
-'traditional' => '伝統的な',
-'in season' => '旬で',
-'heaven' => '天国',
-'fool' => '馬鹿',
-'as a result of' => 'の結果',
-'address' => '住所',
-'say again' => 'もう一度言う',
-'lie' => '嘘',
-'evacuation' => '避難',
-'found' => 'を見つけた',
-'help with' => 'を助ける',
-'personal' => '個人の',
-'in advance' => '前もって',
-'drop out' => '中退する',
-'independence' => '独立',
-'gentle' => 'やさしい',
-'a second' => '少しの間',
-'shout' => '叫ぶ',
-'ordinary' => 'ふつうの',
-'more and more' => 'ますます多くの',
-'many' => '多くの',
-'sentence' => '文',
-'up until' => 'まで',
-'whole' => 'すべての',
-'calligraphy' => '書道',
-'calm' => '落ちついた',
-'fail' => '失敗する',
-'too ～ for' => '～すぎる',
-'thousands of' => '何千もの',
-'so that ～' => 'とてもなので～だ',
-'unhappy' => '不幸な',
-'well' => '健康な',
-'violence' => '暴力',
-'awesome' => 'すばらしい',
-'enemy' => '敵',
-'someone' => 'だれか，ある人',
-'arrow' => '矢',
-'bother' => '面倒',
-'fight' => 'たたかう',
-'worth' => 'の価値がある',
-'custom' => '習慣',
-'sent' => '送った',
-'announce' => 'を発表する',
-'illegal' => '違法な',
-'electronic' => '電子の',
-'latest' => '最新の',
-'hurry' => '急ぐ',
-'shelter' => '避難所',
-'crowd' => '群衆',
-'surprisingly' => '驚いたことには',
-'by bus' => 'バスで',
-'give a ride' => 'を車に乗せる',
-'cancer' => 'がん',
-'every minutes' => '毎分ごとに',
-'fill' => 'いっぱいにする',
-'at most' => '多くとも',
-'on the way' => '道の途中で',
-'spelling' => '綴り',
-'beer' => 'ビール',
-'gas' => 'ガソリン',
-'both of' => '二つとも',
-'nuclear' => '核の，原子力の',
-'between' => '～と～の間',
-'try to' => 'しようとする',
-'disagree' => '意見が合わない',
-'destroy' => 'を破壊する',
-'go straight' => 'まっすぐ行く',
-'eat out' => '外食する',
-'would like to ～' => 'に～してほしい',
-'palace' => '宮殿',
-'bake' => '焼く',
-'sailor' => '船員',
-'tell to ～' => 'に～するように言う',
-'brain' => '頭脳',
-'electronic device' => '電子機器',
-'get fired' => '解雇される',
-'standy by' => 'そばに立つ',
-'border' => '国境',
-'learn about' => 'について学ぶ',
-'sustainable' => '存続可能な',
-'encourage' => 'を勇気づける',
-'usual' => '通常の',
-'fossil fuel' => '化石燃料',
-'death' => '死',
-'inventor' => '発明家',
-'born' => '生まれる',
-'habit' => '習慣',
-'earth' => '地球',
-'barber' => '散髪屋',
-'emergency' => '緊急事態',
-'get on' => '乗り込む',
-'earthquake' => '地震',
-'just in case' => 'もしもの場合に備えて',
-'laugh' => '笑う',
-'field trip' => '遠足',
-'spread' => '広がる，広まる',
-'from the experience' => '経験から',
-'such as' => 'のような',
-'Let us' => '～しましょう',
-'tough' => '困難な，難しい',
-'lip' => '唇',
-'tightly' => 'しっかりと',
-'bridge' => '橋',
-'farewell party' => '送別会',
-'elementary school' => '小学校',
-'president' => '大統領',
-'entrance ceremony' => '入学式',
-'relatively' => '比較的',
-'not always' => 'いつもとは限らない',
-'row' => 'こぐ',
-'drove' => '運転した',
-'low' => '低い',
-'be excited' => '興奮をする',
-'branch' => '枝',
-'on your right' => '右側に',
-'believe in' => 'を信じる',
-'common' => '共通の',
-'discover' => '発見する',
-'tie' => 'ネクタイ',
-'coal' => '石炭',
-'have a headache' => '頭痛がする',
-'care for' => 'の面倒を見る',
-'agree to' => 'を承諾する',
-'feel free to' => '気軽にする',
-'wind' => '風',
-'in case of' => 'の場合には',
-'from now on' => 'これから',
-'thought' => '考え',
-'make all the difference' => '大きなちがいを生む',
-'peace' => '平和',
-'poet' => '詩人',
-'not only but also ～' => 'だけでなく～もまた',
-'in case ～' => '～した場合には',
-'definitely' => 'もちろん，確かに',
-'rose' => '昇った',
-'write down' => '書く',
-'be made of' => 'で出来ている',
-'domestic' => '国内の',
-'rather than' => 'ではなく',
-'most' => 'たいていの，大部分の',
-'vacation' => '休暇',
-'run out of' => 'を使い果たす',
-'get attention' => '注意を引く',
-'strict' => '厳しい',
-'artistic' => '芸術的な',
-'in conclusion' => '結論として',
-'most of' => 'のほとんど',
-'little' => 'ほとんど～ない',
-'wonder' => '不思議に思う',
-'war' => '戦争',
-'senior' => '年上の，上級の',
-'roof' => '屋根',
-'tax' => '税，税金',
-'medicine' => '薬',
-'drop' => '落ちる',
-'what to' => '何をすべきか',
-'east' => '東',
-'absent' => '欠席の',
-'ecosystem' => '生態系',
-'illiterate' => '読み書きのできない',
-'be in trouble' => '困っている',
-'possible' => '可能な',
-'in a hurry' => '急いで',
-'introduce' => '紹介する',
-'ban' => 'を禁止する',
-'land' => '土地',
-'by car' => '車で',
-'creative' => '創造力のある',
-'overseas' => '外国へ',
-'discuss' => '話し合う',
-'flat' => '平らな',
-'daily' => '日常の',
-'prefer A to B' => 'BよりAを好む',
-'hopeful' => '希望を持っている',
-'so far' => 'これまでは',
-'one by one' => '1つずつ',
-'all day long' => '一日中',
-'desert' => '砂漠',
-'be ready for' => 'の用意ができている',
-'port' => '港',
-'researcher' => '研究者',
-'with a smile' => '笑顔で',
-'belong' => 'のものである',
-'live abroad' => '海外で生活する',
-'functional' => '実用的な',
-'be famous for' => 'で有名である',
-'electricity' => '電力',
-'keep in touch' => '連絡を取り合う',
-'leaf' => '葉',
-'establish' => 'を設立する',
-'climb' => '登る',
-'amaze' => 'をびっくりさせる',
-'valley' => '谷',
-'at noon' => '正午に',
-'satisfy' => 'を満足させる',
-'transport' => 'を輸送する',
-'human being' => '人間',
-'blow' => '吹く',
-'believe it or not' => '信じられないだろうけど',
-'monthly' => '月に1回の',
-'second' => '秒',
-'get out' => '外へ出る',
-'although' => 'であるけれど',
-'silk' => '絹',
-'endangered' => '絶滅の危機にさらされている',
-'convenient' => '便利な',
-'gym' => '体育館',
-'go ahead' => '先に行く',
-'breed' => 'を飼育する，繁殖する',
-'wrap' => 'を包む',
-'increase' => 'を増やす，増大させる',
-'railway' => '鉄道',
-'on the other hand' => '一方で',
-'shoulder' => '肩',
-'supply' => '供給',
-'according to' => 'によれば',
-'lead' => 'を導く',
-'national' => '国家の',
-'do a favor' => 'に頼み事を聞く',
-'foot' => '足',
-'take out' => '持ち帰り',
-'survey' => '調査',
-'south' => '南',
-'let' => '～に～をさせる',
-'so that ～' => 'するために',
-'sort' => '種類',
-'arrive at' => 'に到着する',
-'on foot' => '歩いて',
-'jewel' => '宝石',
-'fall in love with' => 'に恋をする',
-'though' => 'だけれども',
-'be in danger of' => 'の危険にさらされている',
-'dead' => '死んだ',
-'hundred' => '百',
-'indeed' => '実に',
-'government' => '政府',
-'countryside' => '田舎',
-'amount' => '量，額',
-'limited' => '限られた',
-'climate' => '気候',
-'out of order' => '故障して',
-'human rights' => '人権',
-'surround' => 'を囲む',
-'holy' => '神聖な',
-'instruction' => '指示',
-'waste' => '浪費',
-'survive' => '生き残る',
-'weekly' => '週刊の',
-'on the wall' => '壁に',
-'be about to' => 'する直前である',
-'magazine' => '雑誌',
-'store' => 'を蓄える',
-'opinion' => '意見，考え',
-'day after day' => '毎日',
-'lazy' => '怠け者の',
-'discrimination' => '差別',
-'root' => '根',
-'fold' => 'を折る，折りたたむ',
-'even so' => 'それでも',
-'afraid' => '恐れて',
-'bit' => '少し',
-'all over' => 'の至る所に',
-'development' => '開発',
-'steam' => '蒸気',
-'foolish' => '愚かな',
-'pain' => '痛み',
-'from A to B' => 'AからBまで',
-'chemical' => '化学物質',
-'check out' => 'を調査する',
-'said' => '言った',
-'capture' => 'を捕まえる',
-'paper crane' => '折り鶴',
-'be concerned with' => 'に関係している',
-'be sick of' => 'にうんざりしてる',
-'tiny' => '小さな',
-'wet' => '濡れている',
-'get over' => 'を乗りこえる',
-'arrest' => 'を逮捕する',
-'curious' => '好奇心の強い',
-'encourage to ～' => 'に～するように促す',
-'get along with' => 'うまくやる',
-'unfair' => '不公平な，不当な',
-'strange' => '奇妙な',
-'carefully' => '注意深く',
-'tired' => '疲れて',
-'take a rest' => '休憩する',
-'terrible' => 'ひどい',
-'hope to' => 'したいと思う',
-'accept' => 'を受け入れる',
-'statue' => '像',
-'else' => 'その他に',
-'law' => '法律',
-'check ～ out' => 'を確認する',
-'stationary shop' => '文房具店',
-'site' => '場所',
-'hand out' => 'を配る',
-'search for' => 'を探索する',
-'decision' => '決定',
-'day in，day out' => '来る日も来る日も',
-'in detail' => '詳細に',
-'growth' => '増加',
-'stationery' => '文房具',
-'above' => '上に，上記の',
-'stand' => 'をがまんする',
-'yet' => 'まだ，今のところは',
-'include' => 'を含む',
-'hold' => '握る',
-'carbon dioxide' => '二酸化炭素',
-'hear from' => 'から連絡がある',
-'apply' => '当てはまる',
-'enough to' => 'するのに十分',
-'wake' => '目が覚める',
-'depend on' => 'に依存する',
-'bomb' => '爆弾',
-'resident' => '住民，居住者',
-'audience' => '聴衆，観客',
-'brave' => '勇敢な',
-'extinguisher' => '消火器',
-'iron' => '鉄',
-'be likely to' => 'する可能性が高い',
-'trade' => '貿易',
-'hall' => '廊下',
-'be in need of' => 'を必要とする',
-'stand up' => '立つ',
-'fill in' => 'に必要事項を記入する',
-'capital' => '首都',
-'person' => '人',
-'run' => 'を主催する',
-'flight' => '飛行',
-'get lost' => '道に迷う',
-'renewable' => '再生可能な',
-'all the time' => '常に',
-'poem' => '詩',
-'ask 人 for' => '人に求める',
-'donate' => 'を寄付する',
-'begin' => '始まる',
-'nest' => '巣',
-'be known as' => 'として知られている',
-'import' => 'を輸入する',
-'secret' => '秘密',
-'given' => '与えた',
-'progress' => '進歩',
-'unused' => '未使用の',
-'neither' => '～も～もない',
-'as a whole' => '全体で',
-'to go' => '持ち帰り',
-'wave' => '波',
-'yen' => '円',
-'debate' => '討論',
-'lullaby' => '子守歌',
-'feather' => '羽',
-'go through' => '人生を送る',
-'note' => '紙幣',
-'awake' => '目が覚める',
-'fall' => '落ちる，降りる',
-'crazy' => '気の狂った',
-'for instance' => '例えば',
-'plastic bag' => 'ビニールぶくろ',
-'discussion' => '討論',
-'junior high school' => '中学校',
-'drop by' => 'に立ち寄る',
-'metal' => '金属',
-'relation' => '関係',
-'colony' => '植民地',
-'airport' => '空港',
-'past' => '過去の',
-'count on' => 'を当てにする',
-'succeed' => '成功する',
-'certain' => '確かな',
-'be amazed at' => 'に驚かされる',
-'modern' => '現代的な',
-'get rid of' => 'を取り除く',
-'affect' => 'に影響を与える',
-'match' => '試合',
-'beyond' => 'をこえたところに',
-'president' => '社長',
-'as well' => '同様に',
-'even' => '～さえ',
-'be satisfied with' => 'に満足している',
-'quietly' => '静かに，落ち着いて',
-'for example' => '例えば',
-'foreign language' => '外国語',
-'blood' => '血',
-'fall asleep' => '眠る',
-'signal' => '信号',
-'decide to' => 'に決める',
-'protest' => '抗議する',
-'extinction' => '絶滅',
-'fantastic' => 'すばらしい',
-'belong to' => 'に属している',
-'pleased' => '喜んで',
-'uniform' => '制服',
-'stranger' => '他人',
-'neighbor' => '隣人',
-'mean' => '意味する',
-'courage' => '勇気',
-'eraser' => '消しゴム',
-'quarter' => '4分の1',
-'get out of' => 'の外に出る',
-'leg' => '脚',
-'from now' => 'これからは',
-'army' => '陸軍',
-'language' => '言語',
-'universe' => '宇宙',
-'for a while' => 'しばらくの間',
-'solve' => 'を解決する',
-'stay up' => '起きている',
-'effective' => '効果的な',
-'pursue' => 'を追い求める',
-'step' => '足元，階段',
-'an average of' => 'の平均',
-'relate to ～' => 'を～に関係させる',
-'well-known' => '有名な',
-'condition' => '状況',
-'burden' => '負担，重荷',
-'wood' => '木材',
-'shade' => '陰，日陰',
-'merchant' => '商人',
-'son' => '息子',
-'heard' => '聞いた',
-'sidewalk' => '歩道',
-'quiet' => '静かな',
-'billion' => '10億',
-'graduation' => '卒業',
-'by the way' => 'ところで',
-'release' => 'を放出する',
-'heat' => '熱',
-'get tired' => '疲れる',
-'perhaps' => '多分',
-'factory' => '工場',
-'besides' => 'そのうえ，さらに',
-'successful' => '成功した',
-'weapon' => '武器',
-'as soon as possible' => 'できるだけ早く',
-'little' => '小さい，かわいい',
-'necessary' => '必要な',
-'someone in need' => '助けが必要な人',
-'extend' => 'を広げる',
-'happiness' => '幸福',
-'be scared of' => 'が怖い',
-'midnight' => '真夜中',
-'consumer' => '消費者',
-'get up' => '起きる',
-'depend' => '頼る',
-'this way' => 'このように',
-'trust' => 'を信用する',
-'film' => '映画',
-'honest' => '正直な',
-'college' => '大学',
-'loss' => '失うこと，喪失',
-'front' => '前',
-'honey' => '蜂蜜',
-'grass' => '草',
-'after a while' => 'しばらくして',
-'suddenly' => '突然に',
-'heart' => '心',
-'disaster' => '災害',
-'instead of' => 'の代わりに',
-'too to ～' => '～するにはすぎる',
-'disease' => '病気',
-'weak' => '弱い，かすかな',
-'pass by' => '通り過ぎる',
-'could' => 'できた',
-'from ～ to ～' => '～から～まで',
-'rapidly' => '速く，急速に',
-'charge' => 'を充電する',
-'meant' => '意味した',
-'behavior' => 'ふるまい',
-'uncomfortable' => '心地の悪い',
-'title' => '題名，表題',
-'resource' => '資源',
-'police officer' => '警察官',
-'ashamed' => '恥じて',
-'yet' => 'もう，すでに',
-'image' => '画像，印象',
-'mouth' => '口',
-'be familiar with' => 'に馴染みがある',
-'seem' => '～の様に見える',
-'north' => '北',
-'planet' => '惑星',
-'even if' => 'たとえ～だとしても',
-'ask 人 about' => '人に～について聞く',
-'fortunately' => '幸運にも',
-'exception' => '例外',
-'cloth' => '服',
-'certainly' => '確かに',
-'for here' => 'ここで食べる',
-'surely' => '確かに',
-'go to' => 'へ行く',
-'device' => '装置',
-'arm' => '腕',
-'be responsible for' => 'に対して責任がある',
-'treasure' => '宝物',
-'just' => 'たった今',
-'at' => '～で',
-'up to' => 'まで',
-'at least' => '少なくとも',
-'call back' => '折り返し電話する',
-'die out' => '絶滅する',
-'sit down' => '座る',
-'look after' => 'の面倒を見る',
-'focus' => '集中する',
-'show 人 around' => '人に見せて回る',
-'respect' => 'を尊敬する',
-'somehow' => '何らかの形で',
-'mind' => '精神',
-'fire' => '火事',
-'leave for' => 'へ出かける',
-'god' => '神',
-'blind' => '目の見えない',
-'be aware of' => 'に気づいている',
-'take it back' => '取り戻す',
-'fly' => '飛ぶ',
-'tear' => '涙',
-'employee' => '従業員',
-'raw' => '生の',
-'survival' => '存続，生き残ること',
-'realize' => '実現する',
-'nuclear power' => '原子力',
-'road' => '道路',
-'species' => '種',
-'lawyer' => '弁護士',
-'parking lot' => '駐車場',
-'look at' => '見る',
-'learn a lot from' => 'からたくさん学ぶ',
-'pretty' => 'かなり',
-'success' => '成功',
-'be full of' => 'でいっぱいの',
-'fire' => 'を首にする，解雇する',
-'try hard' => '一生懸命',
-'himself' => '彼自身を',
-'sleepy' => '眠い',
-'quite' => 'かなり，相当',
-'away' => '離れて',
-'lie' => '横たわる',
-'and so on' => 'などなど',
-'kind to' => 'に対して親切な',
-'scared' => 'こわがって',
-'dislike' => '嫌う',
-'ahead' => '前方に',
-'excuse' => '許す',
-'period' => '時代'
+No	英語	日本語
+1	famous	有名な
+2	weekend	週末に
+3	soon	まもなく，すぐに
+4	still	まだ
+5	popular	人気の
+6	practice	練習する
+7	during	～の間
+8	enjoy	楽しむ
+9	favorite	お気に入りの
+10	sell	を売る
+11	bring	持って来る
+12	expensive	高価な，費用のかかる
+13	join	参加する
+14	so	とても
+15	leave	去る、残す、置いて行く
+16	enough	十分な
+17	happen	起こる
+18	different	違った
+19	invite	招待する
+20	how about	はどうですか？
+21	plan	計画する
+22	ask	たずねる
+23	until	まで，までは
+24	almost	ほとんど
+25	sick	病気の
+26	excited	興奮した
+27	science	科学
+28	library	図書館
+29	visit	訪問する
+30	cheap	安い
+31	then	そのとき
+32	show	見せる
+33	instead	そのかわりに
+34	what about	～はどうですか
+35	garden	庭
+36	look for	を探す
+37	meet	会う
+38	because of	～のために
+39	by	のそばに、によって
+40	stay	滞在
+41	hope	望む
+42	delicious	おいしい
+43	together	一緒に
+44	decide	決心する
+45	later	後に
+46	festival	祭り
+47	vacation	休暇
+48	own	自分の
+49	noon	正午
+50	important	重要な
+51	remember	思い出す
+52	nervous	あがっている
+53	look	見る
+54	weather	天気
+55	in front of	の前に
+56	have to	～しなければならない
+57	grow	育てる
+58	carry	運ぶ
+59	heavy	重い
+60	need to	～する必要がある
+61	a lot of	たくさんの
+62	sure	確信して
+63	arrive	到着する
+64	over there	あそこに
+65	borrow	借りる
+66	place	場所
+67	break	壊れる，破る
+68	June	6月
+69	usually	普通は
+70	win	勝つ
+71	healthy	健康な
+72	sign	標識
+73	one day	ある日
+74	maybe	たぶん
+75	how often	どのぐらいの頻度
+76	hurt	を傷つける
+77	dictionary	辞書
+78	put	置く
+79	try on	試着する
+80	difficult	難しい
+81	be interested in	に興味がある
+82	when	～するとき
+83	beside	横に
+84	strong	強い
+85	believe	信じる
+86	sad	悲しい
+87	should	～すべきである
+88	clock	置き時計
+89	million	100万
+90	bright	明るい
+91	again	もう一度、再び、また
+92	hear	聞く
+93	look forward to	～を楽しみにする
+94	cook	料理する
+95	drive	運転する
+96	face	顔
+97	get	得る
+98	find	見つける
+99	lake	湖
+100	really	本当に
+101	sometimes	時々
+102	exciting	興奮させる
+103	write	書く、手紙を書く
+104	make	作る、～を～にする
+105	tall	高い
+106	guess	推測する
+107	between A and B	AとBの間
+108	July	7月
+109	information	情報
+110	pay	支払う
+111	season	季節
+112	already	すでに，もう
+113	sold out	売り切れ
+114	take care of	の面倒を見る
+115	March	3月
+116	wear	着る
+117	university	大学
+118	math	数学
+119	people	人々
+120	lots of	たくさんの
+121	care	注意する，世話する
+122	invent	を発明する
+123	large	大きい、広い
+124	get married	結婚する
+125	city hall	市庁舎
+126	bank	銀行
+127	prize	賞
+128	save	節約する
+129	on weekends	週末に
+130	clothes	服
+131	museum	博物館
+132	be born	生まれる
+133	choose	選ぶ
+134	cousin	いとこ
+135	everywhere	どこでも
+136	plant	植物
+137	try	試す
+138	if	もし～なら
+139	another	もう一つの
+140	take part in	に参加する
+141	meaning	意味
+142	hit	打つ
+143	angry	怒った，腹を立てた
+144	map	地図
+145	be proud of	を誇りに思う
+146	dirty	汚い
+147	each other	お互いに
+148	promise	約束
+149	problem	問題
+150	who	だれ
+151	what	何
+152	how	どのぐらい
+153	customer	顧客
+154	once	かつて
+155	twice	2回
+156	salt	塩
+157	hurry up	急ぐ
+158	notice	気づく
+159	collect	集める
+160	accident	事故
+161	more than	より多い
+162	cost	費用
+163	star	星、スター
+164	keep	を保つ
+165	late	遅い
+166	cold	冷たい
+167	food	食べ物
+168	order	注文する
+169	clean	きれいな
+170	right away	直ちに，すぐに
+171	trip	旅行
+172	far from	～から遠い
+173	zoo	動物園
+174	wash	洗う
+175	pick up	拾う
+176	fun	楽しみ
+177	grandfather	祖父
+178	travel	旅行
+179	other	ほかの
+180	attention	注意
+181	husband	夫
+182	international	国際的な
+183	interesting	面白い
+184	often	しばしば，よく
+185	boring	つまらない
+186	glad	うれしい
+187	below	下に，下記の
+188	turn	曲がる、回る、変化する
+189	wide	幅の広い
+190	loud	騒がしい
+191	amazing	驚くべき
+192	price	値段
+193	each	各々の
+194	talk about	について話す
+195	right	右に
+196	anyway	ともかく
+197	worry	心配させる
+198	hard	一生懸命に
+199	award	賞
+200	ocean	大洋，海
+201	draw	描く
+202	drink	飲む
+203	bakery	パン屋
+204	busy	忙しい
+205	tonight	今夜は
+206	cloudy	曇った
+207	wrong	間違った
+208	think	考える
+209	subject	科目、題目
+210	become	～になる
+211	enter	入る
+212	imagine	を想像する
+213	without	～なしに
+214	through	を通り抜けて
+215	since	～以来
+216	horizon	地平線，水平線
+217	turn on	を点ける
+218	turn off	を消す
+219	buy	買う
+220	celebrate	祝う
+221	be afraid of	を恐れる
+222	rule	支配，統治
+223	get off	降りる
+224	wallet	さいふ
+225	run away	逃げ去る
+226	ride	乗る
+227	in the future	将来に
+228	scientist	科学者
+229	rainy	雨降りの
+230	rise	昇る
+231	steal	盗む
+232	mirror	鏡
+233	stay with	～と一緒に過ごす
+234	while	～する間
+235	work for	のために働く
+236	feel	感じる
+237	quick	速い
+238	ever	今まで
+239	be good at	～が上手である
+240	local	地元の
+241	lend	貸す
+242	environment	環境
+243	hole	穴
+244	explain	説明する
+245	finger	指
+246	head	頭
+247	hand	手
+248	shape	形
+249	think of	思い付く
+250	country	国
+251	company	会社
+252	taste	味
+253	spend	費やす
+254	in fact	実際には
+255	visitor	観光客
+256	boil	ゆでる，煮る
+257	history	歴史
+258	grew	育った
+259	joined	参加した
+260	letter	手紙
+261	why	なぜ
+262	Saturday	土曜日
+263	Friday	金曜日
+264	advice	忠告
+265	Wednesday	水曜日
+266	few	いくつかの
+267	piece	欠片，一部
+268	went	行った
+269	understand	理解する
+270	reason	理由
+271	pick	選ぶ
+272	peaceful	平和な
+273	handle	を処理する
+274	round	まわりに
+275	thirsty	のどの乾いた
+276	same	同じ
+277	be different from	とは異なる
+278	more	もっと
+279	purpose	目的
+280	lets	～しよう
+281	just a moment	少しの間
+282	vegetable	野菜
+283	May	５月
+284	date	日付
+285	February	2月
+286	such	そのような
+287	talk to	に話しかける
+288	wife	妻
+289	move	動く，引っ越す
+290	daughter	娘
+291	always	いつも
+292	be kind to	～に親切にする
+293	everyone	みんな
+294	agree with	に賛成である
+295	fix	固定する
+296	side	側，面
+297	hungry	空腹の
+298	here	ここに
+299	last	ひとつ前の，最後の
+300	headache	頭痛
+301	mountain	山
+302	anywhere	どこでも
+303	brush	をみがく
+304	breakfast	朝食
+305	hat	帽子
+306	dinner	夕食
+307	watch	見る
+308	around	のまわりに
+309	salad	サラダ
+310	school festival	文化祭
+311	nature	自然
+312	design	を設計する
+313	share	分かち合う
+314	long	長い
+315	receive	を受け取る
+316	injure	を傷つける
+317	theater	劇場
+318	horror	恐怖
+319	attend	に通う，に出席する
+320	die	死ぬ
+321	every year	毎年
+322	fast	速い
+323	umbrella	傘
+324	pleasure	楽しみ
+325	picture	絵、写真
+326	see	見る
+327	art	芸術
+328	too	～もまた
+329	grandmother	祖母
+330	doctor	医者
+331	teach	教える
+332	station	駅
+333	after	～の後で
+334	airplane	飛行機
+335	memory	記憶
+336	wish	望む
+337	answer	答える
+338	example	例
+339	protect	を守る，保護する
+340	century	世紀
+341	moment	瞬間
+342	as usual	いつものように
+343	difference	ちがい
+344	finish	終える
+345	actually	実は，本当は
+346	in those days	当時は
+347	noisy	騒がしい
+348	hospital	病院
+349	recently	最近
+350	fact	事実，現実
+351	sight	見ること
+352	judge	審判員
+353	complain	不満を言う
+354	reach	届く
+355	lose	失う
+356	a few	いくらかの
+357	toy	玩具
+358	November	11月
+359	behind	背後に
+360	support	を支援する，応援する
+361	outside	の外側に
+362	matter	問題，困ったこと
+363	forget	忘れる
+364	wait for	を待つ
+365	tooth	歯
+366	rest	休息する
+367	airline	航空会社
+368	finally	ついに，やっと
+369	river	川
+370	pond	池
+371	hill	丘
+372	cry	泣く
+373	at first	最初は
+374	grade	評価
+375	warn	警告する
+376	comfortable	心地の良い
+377	flavor	風味
+378	meat	肉
+379	kind	種類
+380	square	正方形の
+381	a kind of	一種の
+382	bread	パン
+383	quickly	素早く
+384	burn	を燃やす
+385	at that time	あの時は
+386	word	言葉
+387	continue	続く
+388	manager	部長
+389	not at all	全くない
+390	abroad	外国へ
+391	farmer	農家
+392	market	市場
+393	health	健康
+394	fresh	新鮮な
+395	build	建てる
+396	future	未来
+397	culture	文化
+398	never	１度もない
+399	silent	静かな
+400	worry about	について心配する
+401	several	幾つかの
+402	however	しかし
+403	foreign	外国の
+404	interest	興味
+405	at last	ついに
+406	speak	話す
+407	somewhere	どこかに
+408	for free	無料で
+409	less than	未満
+410	correct	正解
+411	clever	利口な
+412	very	非常に
+413	probably	多分
+414	held	握った
+415	tradition	伝統
+416	know	知っている
+417	color	色
+418	afternoon	午後
+419	sun	太陽
+420	summer	夏
+421	soil	土
+422	thousand	千
+423	horse	馬
+424	lost	失った
+425	April	4月
+426	won	勝った
+427	tell	伝える
+428	useful	役に立つ
+429	cloud	雲
+430	exchange	交換
+431	shake	震える
+432	raise	手などを挙げる
+433	agree	賛成する
+434	smell	においがする
+435	where	どこに
+436	poor	貧乏な
+437	gave	与えた
+438	take	取る
+439	walk	散歩
+440	Monday	月曜日
+441	enjoyed	楽しんだ
+442	studied	勉強した
+443	sold	売った
+444	go abroad	外国に行く
+445	spoke	話した
+446	made	作った
+447	graduate	卒業する
+448	within	以内で
+449	yesterday	昨日
+450	because	なぜなら
+451	dangerous	危険な
+452	island	島
+453	temple	お寺
+454	beginning	最初
+455	traditional	伝統的な
+456	in season	旬で
+457	heaven	天国
+458	fool	馬鹿
+459	as a result of	の結果
+460	address	住所
+461	say again	もう一度言う
+462	lie	嘘
+463	evacuation	避難
+464	found	を見つけた
+465	help with	を助ける
+466	personal	個人の
+467	in advance	前もって
+468	drop out	中退する
+469	independence	独立
+470	gentle	やさしい
+471	a second	少しの間
+472	shout	叫ぶ
+473	ordinary	ふつうの
+474	more and more	ますます多くの
+475	many	多くの
+476	sentence	文
+477	up until	まで
+478	whole	すべての
+479	calligraphy	書道
+480	calm	落ちついた
+481	fail	失敗する
+482	too ～ for	～すぎる
+483	thousands of	何千もの
+484	so that ～	とてもなので～だ
+485	unhappy	不幸な
+486	well	健康な
+487	violence	暴力
+488	awesome	すばらしい
+489	enemy	敵
+490	someone	だれか，ある人
+491	arrow	矢
+492	bother	面倒
+493	fight	たたかう
+494	worth	の価値がある
+495	custom	習慣
+496	sent	送った
+497	announce	を発表する
+498	illegal	違法な
+499	electronic	電子の
+500	latest	最新の
+501	hurry	急ぐ
+502	shelter	避難所
+503	crowd	群衆
+504	surprisingly	驚いたことには
+505	by bus	バスで
+506	give a ride	を車に乗せる
+507	cancer	がん
+508	every minutes	毎分ごとに
+509	fill	いっぱいにする
+510	at most	多くとも
+511	on the way	道の途中で
+512	spelling	綴り
+513	beer	ビール
+514	gas	ガソリン
+515	both of	二つとも
+516	nuclear	核の，原子力の
+517	between	～と～の間
+518	try to	しようとする
+519	disagree	意見が合わない
+520	destroy	を破壊する
+521	go straight	まっすぐ行く
+522	eat out	外食する
+523	would like to ～	に～してほしい
+524	palace	宮殿
+525	bake	焼く
+526	sailor	船員
+527	tell to ～	に～するように言う
+528	brain	頭脳
+529	electronic device	電子機器
+530	get fired	解雇される
+531	stand by	そばに立つ
+532	border	国境
+533	learn about	について学ぶ
+534	sustainable	存続可能な
+535	encourage	を勇気づける
+536	usual	通常の
+537	fossil fuel	化石燃料
+538	death	死
+539	inventor	発明家
+540	born	生まれる
+541	habit	習慣
+542	earth	地球
+543	barber	散髪屋
+544	emergency	緊急事態
+545	get on	乗り込む
+546	earthquake	地震
+547	just in case	もしもの場合に備えて
+548	laugh	笑う
+549	field trip	遠足
+550	spread	広がる，広まる
+551	from the experience	経験から
+552	such as	のような
+553	Let us(Let's)	～しましょう
+554	tough	困難な，難しい
+555	lip	唇
+556	tightly	しっかりと
+557	bridge	橋
+558	farewell party	送別会
+559	elementary school	小学校
+560	president	大統領
+561	entrance ceremony	入学式
+562	relatively	比較的
+563	not always	いつもとは限らない
+564	row	こぐ
+565	drove	運転した
+566	low	低い
+567	be excited	興奮をする
+568	branch	枝
+569	on your right	右側に
+570	believe in	を信じる
+571	common	共通の
+572	discover	発見する
+573	tie	ネクタイ
+574	coal	石炭
+575	have a headache	頭痛がする
+576	care for	の面倒を見る
+577	agree to	を承諾する
+578	feel free to	気軽にする
+579	wind	風
+580	in case of	の場合には
+581	from now on	これから
+582	thought	考え
+583	make all the difference	大きなちがいを生む
+584	peace	平和
+585	poet	詩人
+586	not only but also ～	だけでなく～もまた
+587	in case ～	～した場合には
+588	definitely	もちろん，確かに
+589	rose	昇った
+590	write down	書く
+591	be made of	で出来ている
+592	domestic	国内の
+593	rather than	ではなく
+594	most	たいていの，大部分の
+595	vacation	休暇
+596	run out of	を使い果たす
+597	get attention	注意を引く
+598	strict	厳しい
+599	artistic	芸術的な
+600	in conclusion	結論として
+601	most of	のほとんど
+602	little	ほとんど～ない
+603	wonder	不思議に思う
+604	war	戦争
+605	senior	年上の，上級の
+606	roof	屋根
+607	tax	税，税金
+608	medicine	薬
+609	drop	落ちる
+610	what to	何をすべきか
+611	east	東
+612	absent	欠席の
+613	ecosystem	生態系
+614	illiterate	読み書きのできない
+615	be in trouble	困っている
+616	possible	可能な
+617	in a hurry	急いで
+618	introduce	紹介する
+619	ban	を禁止する
+620	land	土地
+621	by car	車で
+622	creative	創造力のある
+623	overseas	外国へ
+624	discuss	話し合う
+625	flat	平らな
+626	daily	日常の
+627	prefer A to B	BよりAを好む
+628	hopeful	希望を持っている
+629	so far	これまでは
+630	one by one	1つずつ
+631	all day long	一日中
+632	desert	砂漠
+633	be ready for	の用意ができている
+634	port	港
+635	researcher	研究者
+636	with a smile	笑顔で
+637	belong	のものである
+638	live abroad	海外で生活する
+639	functional	実用的な
+640	be famous for	で有名である
+641	electricity	電力
+642	keep in touch	連絡を取り合う
+643	leaf	葉
+644	establish	を設立する
+645	climb	登る
+646	amaze	をびっくりさせる
+647	valley	谷
+648	at noon	正午に
+649	satisfy	を満足させる
+650	transport	を輸送する
+651	human being	人間
+652	blow	吹く
+653	believe it or not	信じられないだろうけど
+654	monthly	月に1回の
+655	second	秒
+656	get out	外へ出る
+657	although	であるけれど
+658	silk	絹
+659	endangered	絶滅の危機にさらされている
+660	convenient	便利な
+661	gym	体育館
+662	go ahead	先に行く
+663	breed	を飼育する，繁殖する
+664	wrap	を包む
+665	increase	を増やす，増大させる
+666	railway	鉄道
+667	on the other hand	一方で
+668	shoulder	肩
+669	supply	供給
+670	according to	によれば
+671	lead	を導く
+672	national	国家の
+673	do a favor	に頼み事を聞く
+674	foot	足
+675	take out	持ち帰り
+676	survey	調査
+677	south	南
+678	let	～に～をさせる
+679	so that ～	するために
+680	sort	種類
+681	arrive at	に到着する
+682	on foot	歩いて
+683	jewel	宝石
+684	fall in love with	に恋をする
+685	though	だけれども
+686	be in danger of	の危険にさらされている
+687	dead	死んだ
+688	hundred	百
+689	indeed	実に
+690	government	政府
+691	countryside	田舎
+692	amount	量，額
+693	limited	限られた
+694	climate	気候
+695	out of order	故障して
+696	human rights	人権
+697	surround	を囲む
+698	holy	神聖な
+699	instruction	指示
+700	waste	浪費
+701	survive	生き残る
+702	weekly	週刊の
+703	on the wall	壁に
+704	be about to	する直前である
+705	magazine	雑誌
+706	store	を蓄える
+707	opinion	意見，考え
+708	day after day	毎日
+709	lazy	怠け者の
+710	discrimination	差別
+711	root	根
+712	fold	を折る，折りたたむ
+713	even so	それでも
+714	afraid	恐れて
+715	bit	少し
+716	all over	の至る所に
+717	development	開発
+718	steam	蒸気
+719	foolish	愚かな
+720	pain	痛み
+721	from A to B	AからBまで
+722	chemical	化学物質
+723	check out	を調査する
+724	said	言った
+725	capture	を捕まえる
+726	paper crane	折り鶴
+727	be concerned with	に関係している
+728	be sick of	にうんざりしてる
+729	tiny	小さな
+730	wet	濡れている
+731	get over	を乗りこえる
+732	arrest	を逮捕する
+733	curious	好奇心の強い
+734	encourage to ～	に～するように促す
+735	get along with	うまくやる
+736	unfair	不公平な，不当な
+737	strange	奇妙な
+738	carefully	注意深く
+739	tired	疲れて
+740	take a rest	休憩する
+741	terrible	ひどい
+742	hope to	したいと思う
+743	accept	を受け入れる
+744	statue	像
+745	else	その他に
+746	law	法律
+747	check ～ out	を確認する
+748	stationery shop	文房具店
+749	site	場所
+750	hand out	を配る
+751	search for	を探索する
+752	decision	決定
+753	day in，day out	来る日も来る日も
+754	in detail	詳細に
+755	growth	増加
+756	stationery	文房具
+757	above	上に，上記の
+758	stand	をがまんする
+759	yet	まだ，今のところは
+760	include	を含む
+761	hold	握る
+762	carbon dioxide	二酸化炭素
+763	hear from	から連絡がある
+764	apply	当てはまる
+765	enough to	するのに十分
+766	wake	目が覚める
+767	depend on	に依存する
+768	bomb	爆弾
+769	resident	住民，居住者
+770	audience	聴衆，観客
+771	brave	勇敢な
+772	extinguisher	消火器
+773	iron	鉄
+774	be likely to	する可能性が高い
+775	trade	貿易
+776	hall	廊下
+777	be in need of	を必要とする
+778	stand up	立つ
+779	fill in	に必要事項を記入する
+780	capital	首都
+781	person	人
+782	run	を主催する
+783	flight	飛行
+784	get lost	道に迷う
+785	renewable	再生可能な
+786	all the time	常に
+787	poem	詩
+788	ask 人 for	人に求める
+789	donate	を寄付する
+790	begin	始まる
+791	nest	巣
+792	be known as	として知られている
+793	import	を輸入する
+794	secret	秘密
+795	given	与えた
+796	progress	進歩
+797	unused	未使用の
+798	neither	～も～もない
+799	as a whole	全体で
+800	to go	持ち帰り
+801	wave	波
+802	yen	円
+803	debate	討論
+804	lullaby	子守歌
+805	feather	羽
+806	go through	人生を送る
+807	note	紙幣
+808	awake	目が覚める
+809	fall	落ちる，降りる
+810	crazy	気の狂った
+811	for instance	例えば
+812	plastic bag	ビニールぶくろ
+813	discussion	討論
+814	junior high school	中学校
+815	drop by	に立ち寄る
+816	metal	金属
+817	relation	関係
+818	colony	植民地
+819	airport	空港
+820	past	過去の
+821	count on	を当てにする
+822	succeed	成功する
+823	certain	確かな
+824	be amazed at	に驚かされる
+825	modern	現代的な
+826	get rid of	を取り除く
+827	affect	に影響を与える
+828	match	試合
+829	beyond	をこえたところに
+830	president	社長
+831	as well	同様に
+832	even	～さえ
+833	be satisfied with	に満足している
+834	quietly	静かに，落ち着いて
+835	for example	例えば
+836	foreign language	外国語
+837	blood	血
+838	fall asleep	眠る
+839	signal	信号
+840	decide to	に決める
+841	protest	抗議する
+842	extinction	絶滅
+843	fantastic	すばらしい
+844	belong to	に属している
+845	pleased	喜んで
+846	uniform	制服
+847	stranger	他人
+848	neighbor	隣人
+849	mean	意味する
+850	courage	勇気
+851	eraser	消しゴム
+852	quarter	4分の1
+853	get out of	の外に出る
+854	leg	脚
+855	from now	これからは
+856	army	陸軍
+857	language	言語
+858	universe	宇宙
+859	for a while	しばらくの間
+860	solve	を解決する
+861	stay up	起きている
+862	effective	効果的な
+863	pursue	を追い求める
+864	step	足元，階段
+865	an average of	の平均
+866	relate to ～	を～に関係させる
+867	well-known	有名な
+868	condition	状況
+869	burden	負担，重荷
+870	wood	木材
+871	shade	陰，日陰
+872	merchant	商人
+873	son	息子
+874	heard	聞いた
+875	sidewalk	歩道
+876	quiet	静かな
+877	billion	10億
+878	graduation	卒業
+879	by the way	ところで
+880	release	を放出する
+881	heat	熱
+882	get tired	疲れる
+883	perhaps	多分
+884	factory	工場
+885	besides	そのうえ，さらに
+886	successful	成功した
+887	weapon	武器
+888	as soon as possible	できるだけ早く
+889	little	小さい，かわいい
+890	necessary	必要な
+891	someone in need	助けが必要な人
+892	extend	を広げる
+893	happiness	幸福
+894	be scared of	が怖い
+895	midnight	真夜中
+896	consumer	消費者
+897	get up	起きる
+898	depend	頼る
+899	this way	このように
+900	trust	を信用する
+901	film	映画
+902	honest	正直な
+903	college	大学
+904	loss	失うこと，喪失
+905	front	前
+906	honey	蜂蜜
+907	grass	草
+908	after a while	しばらくして
+909	suddenly	突然に
+910	heart	心
+911	disaster	災害
+912	instead of	の代わりに
+913	too to ～	～するにはすぎる
+914	disease	病気
+915	weak	弱い，かすかな
+916	pass by	通り過ぎる
+917	could	できた
+918	from ～ to ～	～から～まで
+919	rapidly	速く，急速に
+920	charge	を充電する
+921	meant	意味した
+922	behavior	ふるまい
+923	uncomfortable	心地の悪い
+924	title	題名，表題
+925	resource	資源
+926	police officer	警察官
+927	ashamed	恥じて
+928	yet	もう，すでに
+929	image	画像，印象
+930	mouth	口
+931	be familiar with	に馴染みがある
+932	seem	～の様に見える
+933	north	北
+934	planet	惑星
+935	even if	たとえ～だとしても
+936	ask 人 about	人に～について聞く
+937	fortunately	幸運にも
+938	exception	例外
+939	cloth	服
+940	certainly	確かに
+941	for here	ここで食べる
+942	surely	確かに
+943	go to	へ行く
+944	device	装置
+945	arm	腕
+946	be responsible for	に対して責任がある
+947	treasure	宝物
+948	just	たった今
+949	at	～で
+950	up to	まで
+951	at least	少なくとも
+952	call back	折り返し電話する
+953	die out	絶滅する
+954	sit down	座る
+955	look after	の面倒を見る
+956	focus	集中する
+957	show 人 around	人に見せて回る
+958	respect	を尊敬する
+959	somehow	何らかの形で
+960	mind	精神
+961	fire	火事
+962	leave for	へ出かける
+963	god	神
+964	blind	目の見えない
+965	be aware of	に気づいている
+966	take it back	取り戻す
+967	fly	飛ぶ
+968	tear	涙
+969	employee	従業員
+970	raw	生の
+971	survival	存続，生き残ること
+972	realize	実現する
+973	nuclear power	原子力
+974	road	道路
+975	species	種
+976	lawyer	弁護士
+977	parking lot	駐車場
+978	look at	見る
+979	learn a lot from	からたくさん学ぶ
+980	pretty	かなり
+981	success	成功
+982	be full of	でいっぱいの
+983	fire	を首にする，解雇する
+984	try hard	一生懸命
+985	himself	彼自身を
+986	sleepy	眠い
+987	quite	かなり，相当
+988	away	離れて
+989	lie	横たわる
+990	and so on	などなど
+991	kind to	に対して親切な
+992	scared	こわがって
+993	dislike	嫌う
+994	ahead	前方に
+995	excuse	許す
+996	period	時代

@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <?php require_once 'config/db.php'; ?>
-    <?php date_default_timezone_set('Asia/Tokyo'); ?>
+    <?php require_once 'config/timezone.php'; ?>
     <?php require_once 'class/Word.php'; ?>
     <?php require_once 'class/AnswerWord.php'; ?>
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="main.css?1000">
 </head>
 <body>        
@@ -86,74 +89,91 @@
             $result->close();
         }
     ?>
+    
+<audio id="correct_sound" src="correct_sound.mp3"></audio>
+<audio id="failure_sound" src="failure_sound.mp3"></audio>
 
-    <div class="greeting">
+<div id="modal_success">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h1>正解！ 🎉</h1>
+            <span class="modalClose">×</span>
+        </div>
+        <div class="modal-body">
+            <p>よく分かったね!</p>
+            <p>この調子でがんばろう ☺️</p>
+        </div>
+        <div class="modal-footer">
+            <form method="post" action="">
+                <input type="hidden" name="answer_word_id" value=<?php echo $correct_word->getWordId(); ?> >
+                <input type="hidden" name="answer_japanese" value=<?php echo $correct_word->getJapanese(); ?> >
+                <input type="hidden" name="answer_result" value=0 >
+                <input type="submit" value="つぎの問題" class="button_submit">
+            </form>
+        </div>
+    </div>
+</div>
+
+<div id="modal_failure">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h1>ざんねん、まちがってるよ</h1>
+            <span class="modalClose">×</span>
+        </div>
+        <div class="modal-body">
+            <p>まだまだがんばろう！☺️</p>
+            <p>わからないことは辞書（じしょ）でしらべてみよう</p>
+            <?php echo '答え: ' . $correct_word->getJapanese(); ?>
+        </div>
+        <div class="modal-footer">
+            <form method="post" action="">
+                <input type="hidden" name="answer_word_id" value=<?php echo $correct_word->getWordId(); ?> >
+                <input type="hidden" name="answer_japanese" value=<?php echo $correct_word->getJapanese(); ?> >
+                <input type="hidden" name="answer_result" value=1 >
+                <input type="submit" value="つぎの問題"  class="button_submit">
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <!-- <div class="greeting">
         Hello Kaede. This is your wordlist
-    </div>
-  
-    <div id="modal_success">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1>正解！ 🎉</h1>
-                <span class="modalClose">×</span>
-            </div>
-            <div class="modal-body">
-                <p>よく分かったね!</p>
-                <p>この調子でがんばろう ☺️</p>
-            </div>
-            <div class="modal-footer">
-                <form method="post" action="">
-                    <input type="hidden" name="answer_word_id" value=<?php echo $correct_word->getWordId(); ?> >
-                    <input type="hidden" name="answer_japanese" value=<?php echo $correct_word->getJapanese(); ?> >
-                    <input type="hidden" name="answer_result" value=0 >
-                    <input type="submit" value="つぎの問題" class="button_submit">
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal_failure">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1>ざんねん、まちがってるよ</h1>
-                <span class="modalClose">×</span>
-            </div>
-            <div class="modal-body">
-                <p>まだまだがんばろう！☺️</p>
-                <p>わからないことは辞書（じしょ）でしらべてみよう</p>
-                <p>答えはこれだよ</p>
-                <?php echo $correct_word->getJapanese(); ?>
-            </div>
-            <div class="modal-footer">
-                <form method="post" action="">
-                    <input type="hidden" name="answer_word_id" value=<?php echo $correct_word->getWordId(); ?> >
-                    <input type="hidden" name="answer_japanese" value=<?php echo $correct_word->getJapanese(); ?> >
-                    <input type="hidden" name="answer_result" value=1 >
-                    <input type="submit" value="つぎの問題"  class="button_submit">
-                </form>
-            </div>
-        </div>
-    </div>
+    </div> -->
 
     <div class="main_question">
         <?php echo $correct_word->getEnglish(); ?>
         <button id="speakButton" onclick="speachSynthesis('<?php echo $correct_word->getEnglish(); ?>')">Speak</button>
-    </div>
+    </div>    
 
-    <div class="main_contents">
-        <button class="button" onclick="modalOpen('button1');">
-            <?php echo $choise_word1->getJapanese(); ?>
-        </button> 
-        <button class="button" onclick="modalOpen('button2');">
-            <?php echo $choise_word2->getJapanese(); ?>
-        </button> 
-        <button class="button" onclick="modalOpen('button3');">
-            <?php echo $choise_word3->getJapanese(); ?>
-        </button> 
-        <button class="button" onclick="modalOpen('button4');">
-            <?php echo $choise_word4->getJapanese(); ?>
-        </button> 
-        <a href="record.php">成績を見る 🎉</a>
+        <div class="main_contents">
+            <button class="mdc-button mdc-button--raised button" onclick="modalOpen('button1');">
+                <?php echo $choise_word1->getJapanese(); ?>
+            </button> 
+            <button id="speakButton" class="mdc-button mdc-button__label sub_button" onclick="speachSynthesisJp('<?php echo $choise_word1->getJapanese(); ?>')">Speak</button>
+
+            <button class="mdc-button mdc-button--raised button" onclick="modalOpen('button2');">
+                <?php echo $choise_word2->getJapanese(); ?>
+            </button> 
+            <button id="speakButton"  class="mdc-button mdc-button__label sub_button" onclick="speachSynthesisJp('<?php echo $choise_word2->getJapanese(); ?>')">Speak</button>
+
+            <button class="mdc-button mdc-button--raised button" onclick="modalOpen('button3');">
+                <?php echo $choise_word3->getJapanese(); ?>
+            </button> 
+            <button id="speakButton"  class="mdc-button mdc-button__label sub_button" onclick="speachSynthesisJp('<?php echo $choise_word3->getJapanese(); ?>')">Speak</button>
+
+            <button class="mdc-button mdc-button--raised button" onclick="modalOpen('button4');">
+                <?php echo $choise_word4->getJapanese(); ?>
+            </button> 
+            <button id="speakButton"  class="mdc-button mdc-button__label sub_button" onclick="speachSynthesisJp('<?php echo $choise_word4->getJapanese(); ?>')">Speak</button>
+
+
+            <a href="record.php">成績を見る 🎉</a>
+            <a href="calendar.php">カレンダーを見る 🎉</a>
+
+
+        </div>
     </div>
     
     <script language="javascript" type="text/javascript">
@@ -164,35 +184,44 @@
         }
 
         function modalOpen(button_num) {
-
+            var correctSound = document.getElementById("correct_sound");
+            var failureSound = document.getElementById("failure_sound");
             // phpで正誤チェックして、適切なダイアログを表示
             switch(button_num) {
                 case 'button1':
                     if ('<?php echo $correct_word_japanese ?>' == '<?php echo $choise_word1->getJapanese() ?>') {
                         modal_success.style.display = 'block';
+                        correctSound.play();
                     } else {
                         modal_failure.style.display = 'block';
+                        failureSound.play();
                     }
                 break;
                 case 'button2':
                     if ('<?php echo $correct_word_japanese ?>' == '<?php echo $choise_word2->getJapanese() ?>') {
                         modal_success.style.display = 'block';
+                        correctSound.play();
                     } else {
                         modal_failure.style.display = 'block';
+                        failureSound.play();
                     }
                 break;
                 case 'button3':
                     if ('<?php echo $correct_word_japanese ?>' == '<?php echo $choise_word3->getJapanese() ?>') {
                         modal_success.style.display = 'block';
+                        correctSound.play();
                     } else {
                         modal_failure.style.display = 'block';
+                        failureSound.play();
                     }
                 break;
                 case 'button4':
                     if ('<?php echo $correct_word_japanese ?>' == '<?php echo $choise_word4->getJapanese() ?>') {
                         modal_success.style.display = 'block';
+                        correctSound.play();
                     } else {
                         modal_failure.style.display = 'block';
+                        failureSound.play();
                     }
                 break;
             }
@@ -228,9 +257,13 @@
             window.speechSynthesis.speak(msg);
         }
         
+        function speachSynthesisJp(word){
+            const msg = new SpeechSynthesisUtterance(word);
+            msg.lang = 'jp'
+            window.speechSynthesis.speak(msg);
+        }
+        
+
     </script>
 
 </body>
-
-
-

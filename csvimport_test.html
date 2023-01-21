@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Table</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="word_list.css">
+</head>
+<body>
+  <table>
+    <tr>
+      <th>No.</th>
+      <th>英語</th>
+      <th>日本語</th>
+      <th>読み上げ</th>
+    </tr>
+  </table>
+  <script>
+    fetch('http://localhost:8888/word_list_grade3_2.csv')
+      .then(response => response.text())
+      .then(text => {
+        // CSVから読み込んだデータを行ごとに分割する
+        const rows = text.split('\n');
+
+        // 列ごとに分割した行を処理する
+        for (const row of rows) {
+          // 行内の列を分割する
+          const columns = row.split(',');
+
+          // HTML上のテーブルに行を追加する
+          const table = document.querySelector('table');
+          const tr = document.createElement('tr');
+
+          // 行内の列を追加する
+          for (const column of columns) {
+            const td = document.createElement('td');
+            td.innerText = column;
+            tr.appendChild(td);
+            
+          }
+
+          // 行をテーブルに追加する
+          table.appendChild(tr);
+        }
+      });
+  </script>
+</body>
+</html>

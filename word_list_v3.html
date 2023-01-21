@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Word List</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="word_list.css">
+</head>
+<body>
+  <table class="table-responsive">
+    <tr>
+      <th>No.</th>
+      <th>Word</th>
+      <th>Translation</th>
+    </tr>
+  </table>
+  <script>
+    // ローカルのCSVファイルを読み込む
+    fetch('http://localhost:8888/word_list_grade3_2.csv')
+      .then(response => response.text()) // レスポンスをテキストとして読み込む
+      .then(text => {
+        // テキストを単語リストに変換する
+        const words = text
+          .split('\n') // 改行文字で分割
+          .filter(line => line.length > 0) // 空行を除去
+          .map(line => {
+            const [word, translation] = line.split(','); // カンマで分割
+            return { word, translation };
+          });
+
+        // 単語リストを表示する
+        let tr;
+        for (const [i, word] of words.entries()) {
+          // iが7の倍数である場合、表の末尾に行を追加する
+          if (i % 7 === 0) {
+            tr = document.createElement('tr');
+            document.querySelector('table').appendChild(tr);
+          }
+
+          // 行に単語の番号を表示するセルを追加する
+          const noTd = document.createElement('td');
+          noTd.innerText = i + 1;
+          tr.appendChild(noTd);
+
+          // 行に単語を表示するセルを追加する
+          const wordTd = document.createElement('td');
+          wordTd.innerText = word.word;
+          tr.appendChild(wordTd);
+
+          // 行に単語の和訳を表示するセルを追加する
+          const translationTd = document.createElement('td');
+          translationTd.innerText = word.translation;
+          tr.appendChild(translationTd);
+        }
+      });
+  </script>
+</body>
+</html>

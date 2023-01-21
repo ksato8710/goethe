@@ -1,32 +1,32 @@
 .greeting {
-    font-size: 36px;
+    font-size: 18px;
     text-align:center;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 54px;
+    margin-top: 27px;
 }
 
 .main_question {
-    font-size: 96px;
+    font-size: 36px;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 144px;
-    margin-bottom: 144px;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 .title {
-    font-size: 56px;
+    font-size: 28px;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 144px;
-    margin-bottom: 144px;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 .main_contents {
     display: block;
-    margin: 32px;
+    margin: 16px;
 }
 
 .button {
@@ -35,13 +35,31 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 640px;
-    height: 138px;
-    font-size: 32px;
-    border-radius:32px;
+    width: 320px;
+    height: 69px;
+    font-size: 16px;
+    border-radius:16px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 48px;
+    margin-top: 24px;
+    color: #000000;
+    background-color: lightgray;
+    border: none;
+}
+
+.sub_button {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 320px;
+    height: 23px;
+    font-size: 8px;
+    border-radius:16px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 12px;
     color: #000000;
     background-color: lightgray;
     border: none;
@@ -53,14 +71,14 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 480px;
-    height: 96px;
-    font-size: 32px;
-    border-radius:32px;
+    width: 240px;
+    height: 48px;
+    font-size: 16px;
+    border-radius:16px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 8px;
-    margin-bottom: 24px;
+    margin-top: 4px;
+    margin-bottom: 12px;
     color: #000000;
     background-color: lightgray;
     border: none;
@@ -68,7 +86,7 @@
 
 #modal_success {
     display: none;
-    position: fixed;
+    /* position: fixed; */
     z-index: 1;
     left: 0;
     top: 0;
@@ -80,7 +98,7 @@
 
 #modal_failure {
     display: none;
-    position: fixed;
+    /* position: fixed; */
     z-index: 1;
     left: 0;
     top: 0;
@@ -92,8 +110,8 @@
 
 .modal-content {
     background-color: #f4f4f4;
-    margin: 40% auto;
-    width: 80%;
+    margin: 10% auto;
+    width: 60%;
     font-size: 24px;
     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
     animation-name: modalopen;
